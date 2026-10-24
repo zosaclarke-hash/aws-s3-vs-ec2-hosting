@@ -20,6 +20,17 @@ to each.
 
 ## Implementation
 
+## Screenshots
+
+**S3 Static Website Live**
+![S3 website live](./screenshots/Screenshot%202026-10-04%20212535.png)
+
+**EC2 Web Server Live**
+![EC2 website live](./screenshots/Screenshot%202026-10-04%20212527.png)
+
+**EC2 Instance Running (Status Checks Passed)**
+![EC2 instance running](./screenshots/Screenshot%202026-10-04%20212546.png)
+
 ### Solution 1: Amazon S3 Static Website Hosting
 
 - Provisioned a private-by-default S3 bucket
