@@ -83,5 +83,4 @@ graph LR
     E --> F[EC2 Instance]
     F --> G[Apache HTTP Server]
     G --> H[Rendered Webpage]
-``
 
