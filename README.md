@@ -74,4 +74,14 @@ restoring connectivity while maintaining an auditable access boundary.
 
 ## Architecture Summary
 
+```mermaid
+graph LR
+    A[Client] --> B[S3 Bucket<br/>Scoped GetObject Policy]
+    B --> C[Static Website]
+
+    D[Client] --> E[Security Group<br/>SSH: Restricted / HTTP: Public]
+    E --> F[EC2 Instance]
+    F --> G[Apache HTTP Server]
+    G --> H[Rendered Webpage]
+``
 
